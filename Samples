@@ -1,1 +1,39 @@
+OptiFail Dataset
 
+Each row represents a distinct failure-localization scenario and the suitable approach.
+
+| ID | Failure Type | # Failures | Localization Level | Monitor Locations | Monitor Devices   | Monitor Data | Label |
+|----|--------------|------------|--------------------|-------------------|-------------------|--------------|-------|
+| 1  | Hard failure | Single     | Lightpath          | Per-component     | OPM               | Power        | Heu   |
+| 2  | Hard failure | Single     | Lightpath          | Receiver-only     | Coherent Receiver | BER          | ML    |
+| 3  | Hard failure | Single     | Lightpath          | Receiver-only     | Coherent Receiver | OSNR         | ML    |
+| 4  | Hard failure | Single     | Lightpath          | Per-link          | OPM               | Power        | Heu   |
+| 5  | Hard failure | Single     | Lightpath          | Per-link          | PD                | Power        | Heu   |
+| 6  | Hard failure | Single     | Lightpath          | Per-link          | OTDR              | Power        | Heu   |
+| 7  | Hard failure | Single     | Network            | Receiver-only     | Coherent Receiver | BER          | ML    |
+| 8  | Hard failure | Single     | Network            | Per-link          | OPM               | Power        | Heu   |
+| 9  | Hard failure | Single     | Network            | Per-link          | OTDR              | Power        | Heu   |
+| 10 | Hard failure | Single     | Network            | Per-component     | OPM               | Power        | Heu   |
+| 11 | Hard failure | Multiple   | Lightpath          | Receiver-only     | Coherent Receiver | BER          | ML    |
+| 12 | Hard failure | Multiple   | Lightpath          | Per-link          | OPM               | Power        | ML    |
+| 13 | Hard failure | Multiple   | Lightpath          | Per-link          | OTDR              | Power        | Heu   |
+| 14 | Hard failure | Multiple   | Network            | Receiver-only     | Coherent Receiver | BER          | ML    |
+| 15 | Hard failure | Multiple   | Network            | Per-link          | OPM               | Power        | Heu   |
+| 16 | Hard failure | Multiple   | Network            | Per-link          | OTDR              | Power        | Heu   |
+| 17 | Hard failure | Multiple   | Network            | Per-component     | OPM               | Power        | Heu   |
+| 18 | Soft failure | Single     | Lightpath          | Receiver-only     | Coherent Receiver | BER          | ML    |
+| 19 | Soft failure | Single     | Lightpath          | Receiver-only     | Coherent Receiver | OSNR         | ML    |
+| 20 | Soft failure | Single     | Lightpath          | Per-link          | OPM               | Power        | Heu   |
+| 21 | Soft failure | Single     | Lightpath          | Per-link          | OSA               | Spectrum     | Heu   |
+| 22 | Soft failure | Single     | Network            | Receiver-only     | Coherent Receiver | OSNR         | ML    |
+| 23 | Soft failure | Single     | Network            | Per-link          | OPM               | Power        | ML    |
+| 24 | Soft failure | Single     | Network            | Per-link          | OSA               | Spectrum     | ML    |
+| 25 | Soft failure | Single     | Network            | Per-component     | OPM               | Power        | Heu   |
+| 26 | Soft failure | Multiple   | Lightpath          | Receiver-only     | Coherent Receiver | BER          | ML    |
+| 27 | Soft failure | Multiple   | Lightpath          | Receiver-only     | Coherent Receiver | OSNR         | ML    |
+| 28 | Soft failure | Multiple   | Lightpath          | Per-link          | OPM               | Power        | ML    |
+| 29 | Soft failure | Multiple   | Lightpath          | Per-link          | OSA               | Spectrum     | ML    |
+| 30 | Soft failure | Multiple   | Network            | Receiver-only     | Coherent Receiver | OSNR         | ML    |
+| 31 | Soft failure | Multiple   | Network            | Per-link          | OPM               | Power        | ML    |
+| 32 | Soft failure | Multiple   | Network            | Per-link          | OSA               | Spectrum     | ML    |
+| 33 | Soft failure | Multiple   | Network            | Per-component     | OPM               | Power        | Heu   |
